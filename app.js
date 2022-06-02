@@ -21,6 +21,9 @@ nameInput.addEventListener('input', () => {
     nameDisplay.textContent = nameInput.value;
 });
 
+imageSelect.addEventListener('change', () => {
+    console.log(imageSelect.value);
+});
 
     // get info from user input
     // use user input to update state
