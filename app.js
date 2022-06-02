@@ -3,7 +3,7 @@ const tosCheckbox = document.getElementById('tos-checkbox');
 const showAnswerButton = document.getElementById('show-animal-button');
 const animalSection = document.getElementById('animal-reveal');
 
-const nameInput = document.getElementById('dog');
+const nameInput = document.getElementById('name-input');
 const imageSelect = document.getElementById('image-select');
 
 const nameDisplay = document.getElementById('name-display');
@@ -17,9 +17,9 @@ showAnswerButton.addEventListener('click', () => {
 });
 
 
-// nameInput.addEventListener('input', () => {
-    // nameDisplay.textContent = nameInput.value;
-// });
+nameInput.addEventListener('input', () => {
+    nameDisplay.textContent = nameInput.value;
+});
 
 
     // get info from user input
