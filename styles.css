@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
 
 :root {
     --background: rgb(224, 234, 247);
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Hubballi', cursive;
+    font-family: 'Hammersmith+One';
     background-color: var(--background);
     padding-bottom: 30px;
 }
@@ -27,4 +27,25 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+.hidden {
+    display:none;
+
+}
+#shadow {
+    max-height: 400px;
+    border: 1px solid black;
+    max-width: 340px;
+}
+
+#dog-house {
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    background: red;
+    color: white;
+    font-weight: 800;
+    border: 1px solid black;
+    border-radius: 25px;
+
 }
