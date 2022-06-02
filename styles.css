@@ -35,7 +35,9 @@ footer {
 #shadow {
     max-height: 400px;
     border: 1px solid black;
+    max-width: 340px;
 }
+
 #dog-house {
     width: 350px;
     padding: 10px;
