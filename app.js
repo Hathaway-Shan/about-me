@@ -7,7 +7,7 @@ const nameInput = document.getElementById('name-input');
 const imageSelect = document.getElementById('image-select');
 
 const nameDisplay = document.getElementById('name-display');
-const imageDisplay = document.getElementById('image-display');
+const imageDisplay = document.getElementById('shadow');
 // set event listeners
 tosCheckbox.addEventListener('change', () => {
     showAnswerButton.disabled = !tosCheckbox.checked;
@@ -22,7 +22,9 @@ nameInput.addEventListener('input', () => {
 });
 
 imageSelect.addEventListener('change', () => {
-    console.log(imageSelect.value);
+    const src = imageSelect.value;
+    imageDisplay.src = src;
+    
 });
 
     // get info from user input
